@@ -9,7 +9,6 @@ const StoryListContainer = styled.div`
   scrollbar-width: thin;
 
   @media (max-width: 600px) {
-    /* Ensure horizontal scrolling on mobile screens */
     overflow-x: scroll;
     flex-wrap: nowrap;
   }
@@ -25,10 +24,9 @@ const StoryThumbnail = styled.div`
   margin-right: 10px;
   border-radius: 40px;
   cursor: pointer;
-  border: 2px solid lightcoral; /* Light red border */
+  border: 2px solid lightcoral;
 
   @media (max-width: 600px) {
-    /* Ensure the thumbnails are displayed in a row and are scrollable */
     &:nth-of-type(n + 5) {
       display: none;
     }
