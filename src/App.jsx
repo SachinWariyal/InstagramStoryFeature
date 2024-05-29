@@ -18,7 +18,7 @@ function App() {
   return (
     <>
     <div>
-      <h1 className='header'>Instagram</h1>
+      <h1 className='header'>Storygram</h1>
     </div>
     <div>
       <StoryList onStorySelect={handleStorySelect} setStories={setStories} />
